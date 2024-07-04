@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'mongodb+srv://fauzanofficial950:Kxty5d5fJw29e1n1@cluster0.npvexif.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+var url = 'mongodb+srv://fauzanofficial950:Kxty5d5fJw29e1n1@cluster0.npvexif.mongodb.net/?retryWrites=true&w=majority';
 try {
-if(url == 'mongodb+srv://fauzanofficial950:Kxty5d5fJw29e1n1@cluster0.npvexif.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0') throw console.log(color('Configurasi database, var url belum diisi','red'));
+if(url == 'mongodb+srv://fauzanofficial950:Kxty5d5fJw29e1n1@cluster0.npvexif.mongodb.net/?retryWrites=true&w=majority') throw console.log(color('Configurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
